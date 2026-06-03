@@ -1,0 +1,29 @@
+# Arduino IDE temporary/build
+build/
+*.tmp
+*.bak
+
+# OS
+Thumbs.db
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Arduino cores/packages
+hardware/
+tools/
+
+# Git embedded repos
+**/.git
+
+# Compiled binaries
+*.bin
+*.elf
+*.hex
+
+# Logs
+*.log
+
+# Secrets
+config.h
